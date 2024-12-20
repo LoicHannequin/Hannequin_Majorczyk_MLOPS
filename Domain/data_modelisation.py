@@ -63,7 +63,8 @@ def model_testing(modele, X_test, y_test):
     y_pred = modele.predict(X_test)
     scores = {
         "accuracy": accuracy_score(y_test, y_pred),
-        "classification_report": classification_report(y_test, output_dict=True),
-        "confusion_matrix": confusion_matrix(y_test)
+        "classification_report": classification_report(y_test, y_pred, output_dict=True), 
+        "confusion_matrix": confusion_matrix(y_test, y_pred)
     }
     return scores
+

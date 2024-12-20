@@ -1,0 +1,44 @@
+artifact_uri: file:///c:/Users/lhannequin/OneDrive%20-%20C%C3%A9r%C3%A9lia/Bureau/PY/Hannequin_Majorczyk_MLOPS/Notebooks/mlruns/560758403221649760/b0a3c9b132db4dfbb3a9cf5c646749fe/artifacts
+end_time: 1734731750229
+entry_point_name: ''
+experiment_id: '560758403221649760'
+lifecycle_stage: active
+run_id: b0a3c9b132db4dfbb3a9cf5c646749fe
+run_name: "Model_      Rk                    Team   Age    MOV   SOS    SRS   ORtg
+  \  DRtg  \\\n0      1          Boston Celtics  27.3   7.79 -0.42   7.37  109.4  101.9
+  \  \n1      2      Los Angeles Lakers  26.2   5.90 -0.51   5.40  109.5  103.9   \n2
+  \     3      Philadelphia 76ers  27.0   4.22 -0.18   4.04  105.0  101.0   \n3      4
+  \    Seattle SuperSonics  27.0   4.66 -0.42   4.24  105.8  101.2   \n4      5            Phoenix
+  Suns  26.5   3.60 -0.35   3.25  105.6  102.2   \n...   ..                     ...
+  \  ...    ...   ...    ...    ...    ...   \n1249  26       San Antonio Spurs  23.0
+  \ -6.49  0.69  -5.80  110.0  116.4   \n1250  27  Portland Trail Blazers  24.1  -9.02
+  \ 0.74  -8.29  108.3  117.5   \n1251  28       Charlotte Hornets  25.1 -10.24  0.13
+  -10.12  109.3  119.8   \n1252  29      Washington Wizards  24.9  -9.29  0.00  -9.29
+  \ 110.5  119.6   \n1253  30         Detroit Pistons  23.8  -9.11  0.05  -9.06  109.7
+  \ 118.8   \n\n      NRtg   Pace  ...  DefDRB%  DefFT/FGA  Attend./G  Rounds  ANBAT
+  \ ANBADT  \\\n0      7.5  102.6  ...     67.8      0.234    14490.0     ECF      1
+  \      1   \n1      5.6  104.1  ...     66.9      0.181      427.0  CHAMPS      1
+  \      1   \n2      4.0  103.0  ...     66.7      0.217     1331.0  FINALS      1
+  \      1   \n3      4.6  101.8  ...     67.9      0.221    10799.6     WCF      2
+  \      1   \n4      3.4  104.8  ...     66.9      0.213     1674.0    WCSF      1
+  \      1   \n...    ...    ...  ...      ...        ...        ...     ...    ...
+  \    ...   \n1249  -6.4  101.1  ...     76.4      0.174    18211.0      NP      0
+  \      1   \n1250  -9.2   97.2  ...     74.0      0.216    18327.0      NP      0
+  \      0   \n1251 -10.5   97.3  ...     74.5      0.188    16449.0      NP      0
+  \      0   \n1252  -9.1  102.7  ...     72.5      0.201    16899.0      NP      0
+  \      0   \n1253  -9.1   99.8  ...     77.3      0.221    18159.0      NP      0
+  \      0   \n\n       AS  Année       W/L     PW/PL  \n0     3.0   1980  0.743902
+  \ 0.731707  \n1     2.0   1980  0.731707  0.670732  \n2     1.0   1980  0.719512
+  \ 0.634146  \n3     2.0   1980  0.682927  0.646341  \n4     2.0   1980  0.670732
+  \ 0.609756  \n...   ...    ...       ...       ...  \n1249  0.0   2024  0.268293
+  \ 0.317073  \n1250  0.0   2024  0.256098  0.243902  \n1251  0.0   2024  0.256098
+  \ 0.219512  \n1252  0.0   2024  0.182927  0.243902  \n1253  0.0   2024  0.170732
+  \ 0.243902  \n\n[622 rows x 29 columns]"
+run_uuid: b0a3c9b132db4dfbb3a9cf5c646749fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734731675565
+status: 4
+tags: []
+user_id: lhannequin
