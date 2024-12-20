@@ -16,9 +16,11 @@ def sauvegarder_modele(modele, chemin, exper_name, subset):
     - subset : str : Nom du subset utilisé pour l'entraînement.
     """
     mlflow.set_experiment(exper_name)
-    with mlflow.start_run(run_name=f"Model_{subset}"):
+    with mlflow.start_run(run_name=f"Model_{subset}") as run:
         mlflow.sklearn.log_model(modele, artifact_path=chemin)
+        run_id = run.info.run_id 
         print(f"Modèle sauvegardé avec MLflow dans l'expérience {exper_name}, subset : {subset}.")
+
 
 def charger_modele(chemin):
     """
