@@ -1,2 +1,24 @@
 Packages utilsés :
-Pandas
+sklearn
+mlflow
+os
+sys
+
+
+
+
+import os
+import sys
+from Infrastucture.data_loading import load_data
+from Infrastucture.data_cleaning import clean_data, subsets
+from Domain.data_preprocessing import preprocessing
+from Domain.data_modelisation import ModelTrainer, model_testing
+from Application.data_processing import sauvegarder_modele, charger_modele, pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import mlflow
+import mlflow.sklearn
